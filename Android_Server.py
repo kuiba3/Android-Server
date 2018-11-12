@@ -30,12 +30,20 @@ class MyRequestHandler(SRH):
             print(lengthstr)
             lengthdict = eval(lengthstr)
             length = lengthdict["length"]
+            IMEI = ''
 
             for i in range(0,length):
                 data = self.request.recv(4 * 1024).strip().decode()
                 datadict = eval(data)
                 #print(data)
                 print(datadict)
+
+                ## 处理获得的短信信息
+                if i == 0:
+                    IMEI = datadict['IMEI']
+                else:
+                    print(IMEI)
+                    Message(datadict,IMEI)
 
         if data_type == "keyword_contact":
             Contact(datadict)
@@ -48,7 +56,7 @@ def Contact(data):
     ## 获取IMEI的值
     IMEI = data['IMEI']
 
-    ##连接数据库并获取连接对象
+    ## 连接数据库并获取连接对象
     db = database()
     cur = db.cursor()
 
@@ -81,6 +89,36 @@ def Contact(data):
                 except:
                     db.rollback()
 
+    db.close()
+
+def Message(data,IMEI):
+
+    ## 连接数据库并获取连接对象
+    db = database()
+    cur = db.cursor()
+
+    number = data['number']
+    message_type = data['type']
+    date = data['date']
+    person = data['person']
+    body = data['body']
+
+
+    ## 使用条件 IMEI,number,type,date 在数据库中查询，如果存在，则不用操作
+    ## 否则，添加短信到数据库中
+    selectsql = "select * from message where IMEI = '%s' and contact_number = '%s' " \
+                "and type = '%s' and date = '%s'"%(IMEI,number,message_type,date)
+    cur.execute(selectsql)
+
+    if cur.rowcount == 0:
+        insertsql = "insert into message(IMEI,contact_name,contact_number,type,date,body) values" \
+                    "('%s','%s','%s','%s','%s','%s')" % (IMEI, person, number,message_type,date,body)
+
+        try:
+            cur.execute(insertsql)
+            db.commit()
+        except:
+            db.rollback()
 
     db.close()
 
