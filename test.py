@@ -87,6 +87,17 @@ if __name__ == '__main__':
         db.commit()
     except:
         db.rollback()'''
+    db = database()
+    cur = db.cursor(cursor=pymysql.cursors.DictCursor)
+    sql = "select * from message where IMEI = {}".format('863952036392072')
+    print(sql)
+    cur.execute(sql)
+    num = cur.rowcount
+    print(num)
+    for i in range(num):
+        a = cur.fetchone()
+        print(a)
 
-    Message(data,IMEI)
+
+
     pass

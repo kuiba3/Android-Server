@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="553ac86b-7d91-4ff2-a5bd-77f51ccee006" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_Server.py" afterPath="$PROJECT_DIR$/Android_Server.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
@@ -14,8 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Android_Server$Server.coverage" NAME="Server Coverage Results" MODIFIED="1542015934652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Android_Server$test.coverage" NAME="test Coverage Results" MODIFIED="1542015709115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Android_Server$Server.coverage" NAME="Server Coverage Results" MODIFIED="1542077340933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Android_Server$test.coverage" NAME="test Coverage Results" MODIFIED="1542077152092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,22 +33,29 @@
       <file leaf-file-name="Android_Server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Android_Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="1468">
+              <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
                 <element signature="e#175#246#0" expanded="false" />
-                <element signature="e#1525#2697#0" expanded="false" />
-                <element signature="e#2728#3553#0" expanded="false" />
-                <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-                <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-                <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-                <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-                <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-                <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-                <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-                <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-                <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+                <element signature="e#2818#3653#0" expanded="false" />
+                <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+                <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+                <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+                <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+                <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+                <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+                <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+                <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+                <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+                <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+                <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+                <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+                <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+                <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+                <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+                <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+                <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -58,22 +64,24 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+            <state relative-caret-position="381">
+              <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
               <folding>
                 <element signature="e#469#1641#0" expanded="false" />
-                <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-                <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-                <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-                <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-                <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-                <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-                <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-                <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-                <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-                <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-                <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-                <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+                <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+                <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+                <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+                <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+                <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+                <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+                <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+                <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+                <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+                <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+                <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+                <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+                <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+                <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
               </folding>
             </state>
           </provider>
@@ -99,8 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Android_Server.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Android_Server.py" />
       </list>
     </option>
   </component>
@@ -135,7 +143,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,6 +157,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,13 +472,8 @@
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -482,17 +485,77 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding>
+            <element signature="e#469#1641#0" expanded="false" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android_Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+            <element signature="e#175#246#0" expanded="false" />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -503,18 +566,20 @@
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -526,17 +591,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -547,18 +619,20 @@
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -570,17 +644,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -591,18 +672,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -614,17 +697,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -635,18 +725,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -658,17 +750,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -679,18 +778,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -702,17 +803,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -723,18 +831,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -746,17 +856,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -767,18 +884,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -790,17 +909,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -811,18 +937,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -834,17 +962,24 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -855,18 +990,20 @@
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
@@ -895,44 +1032,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        <state relative-caret-position="381">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
           <folding>
             <element signature="e#469#1641#0" expanded="false" />
-            <marker date="1542015219553" expanded="true" signature="802:859" ph="select * fro... contact" />
-            <marker date="1542015219553" expanded="true" signature="1020:1055" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1057" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1064" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1020:1094" ph="update conta... " />
-            <marker date="1542015219553" expanded="true" signature="1348:1449" ph="insert into contact... " />
-            <marker date="1542015219553" expanded="true" signature="1959:2077" ph="select * fro... message" />
-            <marker date="1542015219553" expanded="true" signature="2207:2338" ph="insert into message... " />
-            <marker date="1542015219553" expanded="true" signature="2689:2704" ph="delete from " />
-            <marker date="1542015219553" expanded="true" signature="2695:2700" ph="select * fro... phone" />
-            <marker date="1542015219553" expanded="true" signature="2695:2701" ph="select * fro... a" />
-            <marker date="1542015219553" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="802:859" ph="select * fro... contact" />
+            <marker date="1542077152075" expanded="true" signature="1020:1055" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1057" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1064" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1020:1094" ph="update conta... " />
+            <marker date="1542077152075" expanded="true" signature="1348:1449" ph="insert into contact... " />
+            <marker date="1542077152075" expanded="true" signature="1959:2077" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2207:2338" ph="insert into message... " />
+            <marker date="1542077152075" expanded="true" signature="2689:2704" ph="delete from " />
+            <marker date="1542077152075" expanded="true" signature="2695:2700" ph="select * fro... phone" />
+            <marker date="1542077152075" expanded="true" signature="2695:2701" ph="select * fro... a" />
+            <marker date="1542077152075" expanded="true" signature="2695:2704" ph="select * fro... app" />
+            <marker date="1542077152075" expanded="true" signature="2850:2885" ph="select * fro... message" />
+            <marker date="1542077152075" expanded="true" signature="2850:2887" ph="select * fro... message" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android_Server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="1468">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#175#246#0" expanded="false" />
-            <element signature="e#1525#2697#0" expanded="false" />
-            <element signature="e#2728#3553#0" expanded="false" />
-            <marker date="1542014651633" expanded="true" signature="1859:1916" ph="select * fro... contact" />
-            <marker date="1542014651633" expanded="true" signature="2077:2151" ph="update conta... " />
-            <marker date="1542014651633" expanded="true" signature="2405:2506" ph="insert into contact... " />
-            <marker date="1542014651633" expanded="true" signature="3015:3080" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3117" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3128" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3133" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3015:3166" ph="select * fro... message" />
-            <marker date="1542014651633" expanded="true" signature="3242:3373" ph="insert into message... " />
+            <element signature="e#2818#3653#0" expanded="false" />
+            <marker date="1542083094684" expanded="true" signature="1932:1989" ph="select * fro... contact" />
+            <marker date="1542083094684" expanded="true" signature="2156:2230" ph="update conta... " />
+            <marker date="1542083094684" expanded="true" signature="2490:2591" ph="insert into contact... " />
+            <marker date="1542083094684" expanded="true" signature="3105:3170" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3207" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3218" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3105:3223" ph="select * fro... message" />
+            <marker date="1542083094684" expanded="true" signature="3338:3469" ph="insert into message... " />
+            <marker date="1542083094684" expanded="true" signature="4025:4067" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4068" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4025:4081" ph="select * fro... permission" />
+            <marker date="1542083094684" expanded="true" signature="4502:4554" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4502:4559" ph="insert into permission... " />
+            <marker date="1542083094684" expanded="true" signature="4829:4865" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4867" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4884" ph="delete from " />
+            <marker date="1542083094684" expanded="true" signature="4829:4885" ph="delete from " />
           </folding>
         </state>
       </provider>

@@ -47,6 +47,8 @@ class MyRequestHandler(SRH):
 
         if data_type == "keyword_contact":
             Contact(datadict)
+        elif data_type == "permission":
+            Permission(datadict)
 
         send_data = (data_type + str(" ok")).encode('utf-8')
         self.request.send(send_data)
@@ -69,12 +71,12 @@ def Contact(data):
             name = list(data[d])[0]
             number = data[d][name]
 
-            selectsql = "select * from contact where IMEI = '%s' and number = '%s' "%(IMEI,number)
+            selectsql = "select * from contact where IMEI = '{}' and number = '{}' ".format(IMEI,number)
             cur.execute(selectsql)
             print("rowcount is ",cur.rowcount)
             if cur.rowcount > 0:
-                updatesql = "update contact set contact_name = '%s' where IMEI = '%s' and number = '%s' " \
-                            %(name,IMEI,number)
+                updatesql = "update contact set contact_name = '{}' where IMEI = '{}' and number = '{}' " \
+                            .format(name,IMEI,number)
                 try:
                     cur.execute(updatesql)
                     db.commit()
@@ -82,7 +84,7 @@ def Contact(data):
                     db.rollback()
             else:
                 insertsql = "insert into contact(IMEI,contact_name,number) values" \
-                            "('%s','%s','%s')" %(IMEI,name,number)
+                            "('{}','{}','{}')".format(IMEI,name,number)
                 try:
                     cur.execute(insertsql)
                     db.commit()
@@ -106,13 +108,13 @@ def Message(data,IMEI):
 
     ## 使用条件 IMEI,number,type,date 在数据库中查询，如果存在，则不用操作
     ## 否则，添加短信到数据库中
-    selectsql = "select * from message where IMEI = '%s' and contact_number = '%s' " \
-                "and type = '%s' and date = '%s'"%(IMEI,number,message_type,date)
+    selectsql = "select * from message where IMEI = '{}' and contact_number = '{}' " \
+                "and type = '{}' and date = '{}'".format(IMEI,number,message_type,date)
     cur.execute(selectsql)
 
     if cur.rowcount == 0:
         insertsql = "insert into message(IMEI,contact_name,contact_number,type,date,body) values" \
-                    "('%s','%s','%s','%s','%s','%s')" % (IMEI, person, number,message_type,date,body)
+                    "('{}','{}','{}','{}','{}','{}')".format(IMEI, person, number,message_type,date,body)
 
         try:
             cur.execute(insertsql)
@@ -122,7 +124,54 @@ def Message(data,IMEI):
 
     db.close()
 
+def Permission(data):
+    ## 获取IMEI的值
+    IMEI = data['IMEI']
 
+    ## 连接数据库并获取连接对象
+    db = database()
+    cur = db.cursor(cursor=pymysql.cursors.DictCursor)
+
+    ## -----更新数据库中的App权限-----
+    ## 查询数据库中此IMEI号的所有权限信息，存储在列表perlist中
+    ## 判断权限是否在列表perlist中，如果不在，在数据库中插入一条权限
+    ## 如果在，删除列表perlist中的此权限
+    ## 最后，把剩下在列表perlist中的权限，在数据库中删除
+    perlist = []
+    selectsql = "select * from permission where IMEI = '{}'".format(IMEI)
+    try:
+        cur.execute(selectsql)
+        num = cur.rowcount
+        for i in range(num):
+            a = cur.fetchone()
+            perlist.append(a['permission'])
+    except Exception as e:
+        print(e)
+
+    for d in data:
+        if d != "IMEI":
+            permission = data[d]
+            if permission in perlist:
+                perlist.remove(permission)
+            else:
+                insertsql = "insert into permission(IMEI,permission) values('{}','{}')".format(IMEI,permission)
+                try:
+                    cur.execute(insertsql)
+                    db.commit()
+                except Exception as e:
+                    print(e)
+                    db.rollback()
+
+    for per in perlist:
+        deletesql = "delete from permission where IMEI = {} and permission = {}}".format(IMEI,per)
+        try:
+            cur.execute(deletesql)
+            db.commit()
+        except Exception as e:
+            print(e)
+            db.rollback()
+
+    db.close()
 
 if __name__ == '__main__':
     tcpServ = TCP(ADDR, MyRequestHandler)
