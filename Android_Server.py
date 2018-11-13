@@ -49,6 +49,8 @@ class MyRequestHandler(SRH):
             Contact(datadict)
         elif data_type == "permission":
             Permission(datadict)
+        elif data_type == "appName":
+            App(datadict)
 
         send_data = (data_type + str(" ok")).encode('utf-8')
         self.request.send(send_data)
@@ -136,7 +138,7 @@ def Permission(data):
     ## 查询数据库中此IMEI号的所有权限信息，存储在列表perlist中
     ## 判断权限是否在列表perlist中，如果不在，在数据库中插入一条权限
     ## 如果在，删除列表perlist中的此权限
-    ## 最后，把剩下在列表perlist中的权限，在数据库中删除
+    ## 最后，把剩下在列表perlist中的权限，从数据库中删除
     perlist = []
     selectsql = "select * from permission where IMEI = '{}'".format(IMEI)
     try:
@@ -172,6 +174,58 @@ def Permission(data):
             db.rollback()
 
     db.close()
+
+def App(data):
+    ## 获取IMEI的值
+    IMEI = data['IMEI']
+
+    ## 连接数据库并获取连接对象
+    db = database()
+    cur = db.cursor(cursor=pymysql.cursors.DictCursor)
+
+    ## -----更新数据库中手机违规软件-----
+    ## 查询数据库中此IMEI号的所有违规软件信息，存储在列表applist中
+    ## 判断软件是否在列表applist中，如果不在，在数据库中插入一条权限
+    ## 如果在，删除列表applist中的此权限
+    ## 最后，把剩下在列表applist中的软件信息，从数据库中删除
+    applist = []
+    selectsql = "select * from app where IMEI = '{}'".format(IMEI)
+    try:
+        cur.execute(selectsql)
+        num = cur.rowcount
+        for i in range(num):
+            a = cur.fetchone()
+            applist.append(a['permission'])
+    except Exception as e:
+        print(e)
+
+    for d in data:
+        if d != "IMEI":
+            app = data[d]
+            if app in applist:
+                applist.remove(app)
+            else:
+                insertsql = "insert into app(IMEI,app) values('{}','{}')".format(IMEI,app)
+                try:
+                    cur.execute(insertsql)
+                    db.commit()
+                except Exception as e:
+                    print(e)
+                    db.rollback()
+
+    for app in applist:
+        deletesql = "delete from app where IMEI = {} and app = {}}".format(IMEI,app)
+        try:
+            cur.execute(deletesql)
+            db.commit()
+        except Exception as e:
+            print(e)
+            db.rollback()
+
+    db.close()
+
+
+
 
 if __name__ == '__main__':
     tcpServ = TCP(ADDR, MyRequestHandler)
