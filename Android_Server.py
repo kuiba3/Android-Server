@@ -1,6 +1,7 @@
 from socketserver import (TCPServer as TCP,StreamRequestHandler as SRH)
 from time import ctime
 import pymysql
+import datetime
 
 HOST = ''
 PORT = 6543
@@ -19,10 +20,10 @@ class MyRequestHandler(SRH):
         print('...connected from:', self.client_address, ctime())
         print('type is',data_type)
 
-        if data_type != "keyword_message":
+        if data_type != "keyword_message" and data_type != "QW":
             data = self.request.recv(1024).strip().decode()
             datadict = eval(data)
-            #print(data)
+            print(data)
             print(datadict)
 
         else:
@@ -39,16 +40,21 @@ class MyRequestHandler(SRH):
                 print(datadict)
 
                 ## 处理获得的短信信息
-                if i == 0:
-                    IMEI = datadict['IMEI']
-                else:
-                    print(IMEI)
-                    Message(datadict,IMEI)
+                if data_type == "keyword_message":
+                    if i == 0:
+                        IMEI = datadict['IMEI']
+                    else:
+                        print(IMEI)
+                        Message(datadict,IMEI)
+                elif data_type == "QW":
+                    print("处理QW信息")
+                    QW(datadict)
 
         if data_type == "keyword_contact":
             Contact(datadict)
         elif data_type == "permission":
             Permission(datadict)
+
         elif data_type == "appName":
             App(datadict)
 
@@ -165,7 +171,9 @@ def Permission(data):
                     db.rollback()
 
     for per in perlist:
-        deletesql = "delete from permission where IMEI = {} and permission = {}}".format(IMEI,per)
+        deletesql = "delete from permission where IMEI = '{}' and permission = '{}'".format(IMEI,per)
+        print("oooooooooooooo")
+        print(deletesql)
         try:
             cur.execute(deletesql)
             db.commit()
@@ -214,13 +222,44 @@ def App(data):
                     db.rollback()
 
     for app in applist:
-        deletesql = "delete from app where IMEI = {} and app = {}}".format(IMEI,app)
+        deletesql = "delete from app where IMEI = '{}' and app = '{}'".format(IMEI,app)
         try:
             cur.execute(deletesql)
             db.commit()
         except Exception as e:
             print(e)
             db.rollback()
+
+    db.close()
+
+def QW(data):
+    # 连接数据库并获取连接对象
+    db = database()
+    cur = db.cursor()
+    print(data)
+
+    IMEI = data['IMEI']
+    jilustr = data['记录']
+    jilu = eval(jilustr)
+    print(jilu,type(jilu))
+    app  = jilu['软件']
+    body = jilu['内容']
+
+
+    nowtime = datetime.datetime.now()
+    time = datetime.datetime.strftime(nowtime, '%Y-%m-%d %H:%M')
+
+
+
+
+    insertsql = "insert into qw(IMEI,App,Body,Time) values" \
+                "('{}','{}','{}','{}')".format(IMEI, app, body, time)
+
+    try:
+        cur.execute(insertsql)
+        db.commit()
+    except:
+        db.rollback()
 
     db.close()
 
